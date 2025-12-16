@@ -762,28 +762,53 @@ main {
 
 
 /* RESPONSIVE */
+@media (max-width: 1024px) {
+    .hero-page {
+        padding: 0 20px;
+    }
+
+    .hero-left h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .third-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sixth-section-first-row h1 {
+        font-size: 3rem;
+    }
+
+    .seventh-inner h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+}
+
 @media (max-width: 900px) {
     .hero-page {
         flex-direction: column;
         padding: 3rem 1.5rem;
     }
 
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        text-align: center;
+    }
+
     .hero-left {
-        justify-content: flex-start;
-        padding-top: 4rem;
+        padding-top: 3rem;
     }
 
     .hero-left h1 {
         font-size: 3rem;
-        line-height: 3.2rem;
-    }
-
-    .hero-left p {
-        font-size: 1.4rem;
+        line-height: 3.3rem;
     }
 
     .hero-left a {
-        padding: 18px 23px;
+        margin: 0 auto;
     }
 
     .hero-right {
@@ -791,20 +816,20 @@ main {
     }
 
     .hero-first-icon-container {
-        top: -20px;
-        left: 50px;
-        max-width: 140px;
+        top: -30px;
+        left: 40px;
+        max-width: 130px;
     }
 
     .hero-second-icon-container {
         bottom: -80px;
-        left: 40px;
+        left: 30px;
         max-width: 100px;
     }
 
     .hero-third-icon-container {
         max-width: 120px;
-        bottom: -20px;
+        bottom: -10px;
     }
 
     .third-section {
@@ -812,75 +837,129 @@ main {
         gap: 16px;
     }
 
-    .portfolio-container-1,
-    .portfolio-container-2,
-    .portfolio-container-3,
-    .portfolio-container-4,
-    .portfolio-container-5,
-    .portfolio-container-6 {
-        max-width: 380px;
-        max-height: 380px;
+    .fifth-section {
+        padding: 6rem 20px;
+    }
+
+    .demo-image-1,
+    .demo-image-2 {
+        display: none;
+    }
+
+    .sixth-section-second-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.2rem;
     }
 
     .eight-section-inner {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        gap: 2rem;
     }
 
-    .eight-inner-card {
-        max-width: 100%;
+    .nine-section {
+        height: auto;
+        padding: 5rem 20px;
     }
 
+    .inner-nine-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
 }
 
+@media (max-width: 600px) {
+    .hero-left h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
 
+    .hero-left p {
+        font-size: 1.3rem;
+    }
 
-@media (max-width: 400px) {
     .hero-left a {
-        padding: 15px 20px;
+        padding: 15px 25px;
     }
 
-    .hero-image-container {
-        width: 100%;
-    }
-
-    .hero-first-icon-container {
+    .hero-first-icon-container,
+    .hero-second-icon-container {
         display: none;
+    }
+
+    .hero-third-icon-container {
+        max-width: 90px;
+        right: 0;
+    }
+
+    .second-section {
+        height: 200px;
     }
 
     .third-section {
         grid-template-columns: 1fr;
-        gap: 12px;
     }
 
-    .portfolio-container-1,
-    .portfolio-container-2,
-    .portfolio-container-3,
-    .portfolio-container-4,
-    .portfolio-container-5,
-    .portfolio-container-6 {
-        max-width: 100%;
-        max-height: 300px;
+    .fourth-section-container h1 {
+        font-size: 2.3rem;
     }
 
-    .eight-section {
-        padding: 4rem 15px;
+    .fourth-section-container p {
+        font-size: 16px;
+    }
+
+    .sixth-section-first-row h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .sixth-section-second-row {
+        padding: 1rem 0;
+    }
+
+    .seventh-inner h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
     }
 
     .eight-section-inner {
         grid-template-columns: 1fr;
-        gap: 1.25rem;
+    }
+
+    .inner-nine-section h1 {
+        font-size: 2rem;
+    }
+
+    .inner-nine-section button {
+        padding: 16px 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-left h1 {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+    }
+
+    .hero-left p {
+        font-size: 1.2rem;
+    }
+
+    .hero-left a {
+        padding: 14px 20px;
+    }
+
+    .seventh-inner h1 {
+        font-size: 2rem;
     }
 
     .eight-card-likes {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .eight-inner-card::before {
-        width: 60px;
-        height: 60px;
-        font-size: 1.2rem;
-        top: 15px;
-        left: 15px;
+        width: 55px;
+        height: 55px;
+        font-size: 1.1rem;
     }
 }

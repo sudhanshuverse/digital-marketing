@@ -44,9 +44,9 @@ function Footer() {
                 <div className="footer-second-row">
                     <p>&copy; Copyright 2021 DigiDrive</p>
                     <div className="social-icons">
-                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i className="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
                     </div>
                 </div>
             </div>
