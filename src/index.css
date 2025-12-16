@@ -53,9 +53,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #051441;
+  color: var(--dark-blue);
 }
 
 h1{
   line-height: 2rem;
+  color: var(--dark-blue);
+  font-weight: 400;
+  letter-spacing:1px;
 }
+
