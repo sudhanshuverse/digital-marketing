@@ -39,8 +39,7 @@
 
 @font-face {
   font-family: 'Futura';
-  src: url('/font/futura-pt/FuturaCyrillicMedium.ttf') format('truetype');
-  font-weight: 500;
+  src: url('/font/futura-pt/FuturaCyrillicDemi.ttf') format('truetype');
   font-style: normal;
   font-display: swap;
 }
@@ -59,8 +58,6 @@ a {
 h1 {
   line-height: 2rem;
   color: var(--dark-blue);
-  font-weight: 400;
-  letter-spacing: 1px;
 }
 
 ::-webkit-scrollbar {
