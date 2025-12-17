@@ -120,6 +120,7 @@
 .about-second-section-first h2 {
     font-size: 2.2rem;
     color: var(--dark-blue);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-second-first-text-two {
@@ -348,38 +349,14 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
-
     .about-first-section,
     .about-second-section {
         flex-direction: column;
+        align-items: center;
     }
 
-    .about-image-two-container,
-    .about-image-three-container {
+    .about-image-two-container{
         display: none;
     }
 
