@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 
 import './Services.css';
 
@@ -13,9 +13,7 @@ import services_page_icon_6 from '/assets/services_page_icon_6.svg';
 import services_page_icon_7 from '/assets/services_page_icon_7.svg';
 import meeting from '/assets/meeting.svg';
 import cta_icon from '/assets/cta_icon.png';
-import client1 from '/assets/client_1.png';
-import icon1 from '/assets/testimonial_icon_1.png';
-import icon2 from '/assets/testimonial_icon_2.png';
+
 
 const testimonials = [
     {
