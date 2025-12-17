@@ -67,7 +67,6 @@ function About() {
                 </div>
             </section>
 
-
             {/* THIRD SECTION */}
             <section className="about-third-section">
                 <div className="about-third-inner">

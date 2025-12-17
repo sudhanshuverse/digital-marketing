@@ -663,7 +663,6 @@ main {
 
 .eight-card-text h2 {
     font-weight: 600;
-    letter-spacing: 0.5px;
     transition: all 0.3s ease-in;
     cursor: pointer;
 }
