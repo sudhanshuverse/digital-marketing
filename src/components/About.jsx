@@ -20,8 +20,6 @@ function About() {
         smoothness: 0.04
     });
 
-
-
     return (
         <section className="about">
             {/* FIRST SECTION */}
@@ -52,7 +50,7 @@ function About() {
                         <p className="about-second-first-text">Get to know us</p>
                         <h2>Wanna know more about us <span>?</span></h2>
                         <p className="about-second-first-text-two">Our team is determined to serve our clients with digital branding and marketing solutions developed and customized as per their business needs which has been the key to building and keeping the trust earned over 65 years. Being a prominent name in the OOH advertising space, we endeavor to bring the same success to our new as well as existing clients in this digital era by catering to all their digital needs under one roof. <br /> <br /> With a quest for modern approaches to help clients drive more revenue, DigiDrive is here to bring innovation to your existing marketing strategies, making your business future-ready and driving you towards digital.</p>
-                        <button>Meet Our Team <span>&#8594;</span></button>
+                        <Link to="">Meet Our Team <span>&#8594;</span></Link>
                     </div>
 
                     <div className="about-second-section-second">

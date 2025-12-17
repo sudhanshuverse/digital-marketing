@@ -1,14 +1,5 @@
-@font-face {
-    font-family: 'Futura-light';
-    src: url('/font/futura-pt/FuturaCyrillicMedium.ttf') format('truetype');
-    font-family: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 .contact {
     width: 100%;
-    font-family: 'Futura-light';
 }
 
 
@@ -193,7 +184,9 @@
     width: 100%;
 }
 
-.contact-form-row-three button {
+.contact-form-row-three a {
+    display: inline-block;
+    text-align: center;
     width: 100%;
     font-size: 1.1rem;
     font-family: inherit;
@@ -204,7 +197,7 @@
     transition: 0.3s;
 }
 
-.contact-form-row-three button:hover {
+.contact-form-row-three a:hover {
     background-color: white;
     color: #ff7070;
     border: 1px solid #ff7070;

@@ -32,16 +32,12 @@ main {
     font-weight: 600;
 }
 
-
-
 .hero-first-icon-container,
 .hero-second-icon-container,
 .hero-third-icon-container {
     will-change: transform;
     transition: transform .4s ease-out;
 }
-
-
 
 .hero-first-icon-container {
     position: absolute;
@@ -84,7 +80,6 @@ main {
     transition: 0.3s ease;
 }
 
-
 .hero-left a {
     position: relative;
     padding: 18px 40px;
@@ -106,13 +101,11 @@ main {
     transition: 0.3s ease;
 }
 
-
 .hero-left a:hover::before,
 .hero-left a:hover::after {
     width: 100%;
     height: 100%;
 }
-
 
 .hero-right {
     width: 100%;
@@ -300,7 +293,7 @@ main {
     font-size: 18px;
 }
 
-.fourth-section-container button {
+.fourth-section-container a {
     display: flex;
     gap: 15px;
     padding: 17px 26px;
@@ -314,15 +307,15 @@ main {
     cursor: pointer;
 }
 
-.fourth-section-container button:hover {
+.fourth-section-container a:hover {
     background-color: transparent;
     color: #ff7070;
 }
 
-.fourth-section-container button span {
+.fourth-section-container a span {
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .section-four-arrow-container span {
@@ -362,7 +355,7 @@ main {
     letter-spacing: 0.5px;
 }
 
-.fifth-section-container button::before {
+.fifth-section-container a::before {
     opacity: 0;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
@@ -373,7 +366,7 @@ main {
     z-index: -1;
 }
 
-.fifth-section-container button {
+.fifth-section-container a {
     position: relative;
     overflow: hidden;
     background-color: white;
@@ -385,9 +378,10 @@ main {
     font-weight: 600;
     transition: color 0.3s ease;
     z-index: 1;
+    letter-spacing: 1px;
 }
 
-.fifth-section-container button::after {
+.fifth-section-container a::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -398,11 +392,11 @@ main {
     z-index: -1;
 }
 
-.fifth-section-container button:hover {
+.fifth-section-container a:hover {
     color: white;
 }
 
-.fifth-section-container button:hover::after {
+.fifth-section-container a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -708,7 +702,7 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.inner-nine-section button::before {
+.inner-nine-section a::before {
     content: "";
     opacity: 0;
     -webkit-transition-duration: 0.6s;
@@ -720,7 +714,7 @@ main {
     z-index: -1;
 }
 
-.inner-nine-section button {
+.inner-nine-section a {
     position: relative;
     overflow: hidden;
     background-color: #ff7070;
@@ -734,7 +728,7 @@ main {
     transition: color 0.3s ease;
 }
 
-.inner-nine-section button::after {
+.inner-nine-section a::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -745,16 +739,16 @@ main {
     z-index: -1;
 }
 
-.inner-nine-section button:hover::after {
+.inner-nine-section a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
 
-.inner-nine-section button::after {
+.inner-nine-section a::after {
     transform-origin: right;
 }
 
-.inner-nine-section button:hover {
+.inner-nine-section a:hover {
     color: #ff7070;
 }
 

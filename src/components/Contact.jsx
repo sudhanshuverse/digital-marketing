@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './Contact.css';
 
 import map from '/assets/map.png'
@@ -63,7 +64,7 @@ function Contact() {
                             <textarea placeholder='Message'></textarea>
                         </div>
                         <div className="contact-form-row-three">
-                            <button>Send Message</button>
+                            <Link to="">Send Message</Link>
                         </div>
                     </div>
                 </div>

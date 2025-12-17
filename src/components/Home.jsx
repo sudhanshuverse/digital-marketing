@@ -75,14 +75,14 @@ function Home() {
             {/* SECOND SECTION */}
             <section className="second-section">
                 <div className="arrow-container bounce">
-                    <img src={arrowDown} alt="down arrow" />
+                    <img src={arrowDown} alt="down arrow" onClick={() => { document.getElementById("down")?.scrollIntoView({ behavior: "smooth", }); }}/>
                 </div>
             </section>
 
             {/* THIRD SECTION */}
             <section className="third-section">
-                <div className="portfolio-container-outer-container">
-                    <div className="portfolio-container">
+                <div className="portfolio-container-outer-container" id="down">
+                    <div className="portfolio-container" id="down">
                         <Link to=""> <img src={portfolioImage1} alt="Portfolio image one" />
                             <div className="overlay">
                                 <div className="overlay">
@@ -163,10 +163,10 @@ function Home() {
                 <div className="fourth-section-container">
                     <h1>Who We Are</h1>
                     <p> Pioneer DigiDrive is the business vertical of Pioneer Publicity Corporation dealing in digital branding and marketing.</p>
-                    <button>
+                    <Link to="">
                         <span>Read More</span>
                         <span className="arrow">&#8594;</span>
-                    </button>
+                    </Link>
                 </div>
             </section>
 
@@ -175,7 +175,7 @@ function Home() {
                 <div className="fifth-section-container">
                     <h1>What We Do</h1>
                     <p> Our digital solutions are focused on enabling brands to have an edge over their competition.</p>
-                    <button>Take a Demo</button>
+                    <Link to="">Take a Demo</Link>
                     <img src={demo_1} className="demo-image-1" alt="demo 1" style={{ transform: `translateY(${demoParallax.offset}px)` }} />
                     <img src={demo_2} className="demo-image-2" alt="demo 2" style={{ transform: `translateY(${demoParallax.offset}px)` }} />
                 </div>
@@ -427,7 +427,7 @@ function Home() {
                 <div className="inner-nine-section">
                     <p>Let's get started</p>
                     <h1>All set to kickstart your digital Journey <span>?</span></h1>
-                    <button>Get Started Today</button>
+                    <Link to="">Get Started Today</Link>
                 </div>
             </section>
         </main>
