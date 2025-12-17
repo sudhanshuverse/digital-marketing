@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import logo from "/assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -13,10 +14,10 @@ function Header() {
         </div>
 
         <div className={`right ${open ? "active" : ""}`}>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
         </div>
 
         <div className="hamburger">
