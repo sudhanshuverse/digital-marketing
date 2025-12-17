@@ -1,3 +1,349 @@
-.contact{
-    margin-top: 80px;
+@font-face {
+    font-family: 'Futura-light';
+    src: url('/font/futura-pt/FuturaCyrillicMedium.ttf') format('truetype');
+    font-family: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.contact {
+    width: 100%;
+    font-family: 'Futura-light';
+}
+
+
+/* FIRST PAGE */
+.contact-first-section {
+    width: 100%;
+    min-height: 480px;
+    background-image: url(/assets/contact_classic_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-first-section-inner {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-first-section-inner h1 {
+    font-size: 5rem;
+    line-height: 7rem;
+    font-weight: 400;
+}
+
+.contact-first-section-inner p {
+    font-weight: 100;
+    font-size: 18px;
+    color: #051441;
+    line-height: 1.8rem;
+}
+
+
+/* SECOND PAGE */
+.contact-second-section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 7rem 0;
+    margin-inline: auto;
+}
+
+.contact-second-section-row-one p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #051441;
+}
+
+.contact-second-section-row-one p span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-second-section-row-one p+p {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    margin-top: 10px;
+}
+
+.contact-second-section-row-two {
+    width: 100%;
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-second-section-row-two-card {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.explore-image {
+    width: 100px;
+    height: 100px;
+}
+
+.explore-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* THIRD SECTION */
+.contact-third-section {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 7rem;
+}
+
+.contact-third-section-inner {
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.contact-third-section-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    color: #051441;
+}
+
+.contact-third-section-row-one p {
+    font-size: 1.5rem;
+}
+
+.contact-third-section-row-one p span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-third-section-row-one h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.contact-third-section-row-two {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-form-row-one {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-form-row-one input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    color: #7d7d7d;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.contact-form-row-one input:focus {
+    border: 1px solid #ff7070;
+}
+
+.contact-form-row-two {
+    width: 100%;
+}
+
+.contact-form-row-two textarea {
+    width: 100%;
+    min-height: 300px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 20px;
+    resize: none;
+    color: #7d7d7d;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.contact-form-row-two textarea:focus {
+    border: 1px solid #ff7070;
+}
+
+.contact-form-row-three {
+    width: 100%;
+}
+
+.contact-form-row-three button {
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding-block: 15px;
+    border: none;
+    background-color: #ff7070;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-form-row-three button:hover {
+    background-color: white;
+    color: #ff7070;
+    border: 1px solid #ff7070;
+}
+
+
+/* FOURTH SECTION */
+.contact-fourth-section{
+    width: 100%;
+    padding: 5rem 1rem;
+}
+
+.contact-fourth-section-inner{
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    margin-inline: auto;
+}
+
+.contact-fourth-section-inner iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+@media (min-width: 1400px) {
+    .contact-first-section {
+        min-height: 520px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-first-section {
+        min-height: 420px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-first-section-inner h1 {
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+    }
+
+    .contact-second-section {
+        padding: 5rem 1rem;
+    }
+
+    .contact-second-section-row-two {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .contact-third-section {
+        padding: 5rem 2rem;
+    }
+
+    .contact-form-row-one {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-first-section {
+        min-height: 360px;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .contact-first-section-inner h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .contact-first-section-inner p {
+        font-size: 16px;
+    }
+
+    .contact-second-section-row-one p {
+        font-size: 1.1rem;
+    }
+
+    .contact-second-section-row-one p + p {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+
+    .contact-third-section-row-one h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-third-section-row-two {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-first-section {
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-first-section-inner h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .contact-first-section-inner p {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+    .contact-second-section {
+        padding: 4rem 1rem;
+    }
+
+    .contact-second-section-row-two {
+        flex-direction: column;
+    }
+
+    .contact-third-section {
+        padding: 4rem 1rem;
+    }
+
+    .contact-third-section-row-one p {
+        font-size: 1.2rem;
+    }
+
+    .contact-third-section-row-one h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form-row-two textarea {
+        min-height: 200px;
+    }
+
+    .contact-fourth-section-inner {
+        height: 300px;
+    }
 }

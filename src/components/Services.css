@@ -114,6 +114,12 @@
     color: #051441;
     text-align: center;
     font-family: Futura;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section-section-card h2:hover{
+    color: #ff7070;
 }
 
 .section-section-card p {
