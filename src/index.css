@@ -56,10 +56,18 @@ a {
   color: var(--dark-blue);
 }
 
-h1{
+h1 {
   line-height: 2rem;
   color: var(--dark-blue);
   font-weight: 400;
-  letter-spacing:1px;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
 }
 
